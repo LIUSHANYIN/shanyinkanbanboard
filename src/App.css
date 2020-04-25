@@ -1,7 +1,16 @@
 .App {
-  text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    background-color: #eceeee;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 30px;
+    
 }
-
+* {
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
